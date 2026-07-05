@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
-	internalevents "github.com/formancehq/payments/internal/events"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
+	internalevents "github.com/hanzo-fi/payments/internal/events"
+	"github.com/hanzo-fi/payments/internal/storage"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"

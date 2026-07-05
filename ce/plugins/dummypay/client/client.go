@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type Client interface {

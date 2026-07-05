@@ -3,8 +3,8 @@ package column
 import (
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/column/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/column/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type ColumnAddress struct {

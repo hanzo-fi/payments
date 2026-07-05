@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"go.temporal.io/sdk/workflow"
 )
 

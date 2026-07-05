@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/formancehq/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
 )
 
 type DeleteUserConnectionRequest struct {

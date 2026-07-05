@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/fireblocks/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/fireblocks/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type accountsState struct {

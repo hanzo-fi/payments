@@ -1,45 +1,45 @@
-module github.com/formancehq/payments
+module github.com/hanzo-fi/payments
 
 go 1.26
 
-replace github.com/formancehq/payments/pkg/client => ./pkg/client
+replace github.com/hanzo-fi/payments/pkg/client => ./pkg/client
 
 // replace => ./pkg/domain means Go will never actually fetch v0.x.x from the proxy but go mod tidy still updates the version number in require to accurately reflect the minimum version. The local directory is what gets compiled — the version is just a bookkeeping number for MVS consistency.
-replace github.com/formancehq/payments/pkg/domain => ./pkg/domain
+replace github.com/hanzo-fi/payments/pkg/domain => ./pkg/domain
 
-replace github.com/formancehq/payments/ce/plugins/adyen => ./ce/plugins/adyen
+replace github.com/hanzo-fi/payments/ce/plugins/adyen => ./ce/plugins/adyen
 
-replace github.com/formancehq/payments/ce/plugins/dummypay => ./ce/plugins/dummypay
+replace github.com/hanzo-fi/payments/ce/plugins/dummypay => ./ce/plugins/dummypay
 
-replace github.com/formancehq/payments/ce/plugins/atlar => ./ce/plugins/atlar
+replace github.com/hanzo-fi/payments/ce/plugins/atlar => ./ce/plugins/atlar
 
-replace github.com/formancehq/payments/ce/plugins/bankingcircle => ./ce/plugins/bankingcircle
+replace github.com/hanzo-fi/payments/ce/plugins/bankingcircle => ./ce/plugins/bankingcircle
 
-replace github.com/formancehq/payments/ce/plugins/column => ./ce/plugins/column
+replace github.com/hanzo-fi/payments/ce/plugins/column => ./ce/plugins/column
 
-replace github.com/formancehq/payments/ce/plugins/currencycloud => ./ce/plugins/currencycloud
+replace github.com/hanzo-fi/payments/ce/plugins/currencycloud => ./ce/plugins/currencycloud
 
-replace github.com/formancehq/payments/ce/plugins/generic => ./ce/plugins/generic
+replace github.com/hanzo-fi/payments/ce/plugins/generic => ./ce/plugins/generic
 
-replace github.com/formancehq/payments/ce/plugins/increase => ./ce/plugins/increase
+replace github.com/hanzo-fi/payments/ce/plugins/increase => ./ce/plugins/increase
 
-replace github.com/formancehq/payments/ce/plugins/mangopay => ./ce/plugins/mangopay
+replace github.com/hanzo-fi/payments/ce/plugins/mangopay => ./ce/plugins/mangopay
 
-replace github.com/formancehq/payments/ce/plugins/modulr => ./ce/plugins/modulr
+replace github.com/hanzo-fi/payments/ce/plugins/modulr => ./ce/plugins/modulr
 
-replace github.com/formancehq/payments/ce/plugins/moneycorp => ./ce/plugins/moneycorp
+replace github.com/hanzo-fi/payments/ce/plugins/moneycorp => ./ce/plugins/moneycorp
 
-replace github.com/formancehq/payments/ce/plugins/plaid => ./ce/plugins/plaid
+replace github.com/hanzo-fi/payments/ce/plugins/plaid => ./ce/plugins/plaid
 
-replace github.com/formancehq/payments/ce/plugins/powens => ./ce/plugins/powens
+replace github.com/hanzo-fi/payments/ce/plugins/powens => ./ce/plugins/powens
 
-replace github.com/formancehq/payments/ce/plugins/qonto => ./ce/plugins/qonto
+replace github.com/hanzo-fi/payments/ce/plugins/qonto => ./ce/plugins/qonto
 
-replace github.com/formancehq/payments/ce/plugins/stripe => ./ce/plugins/stripe
+replace github.com/hanzo-fi/payments/ce/plugins/stripe => ./ce/plugins/stripe
 
-replace github.com/formancehq/payments/ce/plugins/tink => ./ce/plugins/tink
+replace github.com/hanzo-fi/payments/ce/plugins/tink => ./ce/plugins/tink
 
-replace github.com/formancehq/payments/ce/plugins/wise => ./ce/plugins/wise
+replace github.com/hanzo-fi/payments/ce/plugins/wise => ./ce/plugins/wise
 
 replace gopkg.in/go-jose/go-jose.v4 => github.com/go-jose/go-jose/v4 v4.1.4
 
@@ -47,25 +47,25 @@ require (
 	github.com/ThreeDotsLabs/watermill v1.5.1
 	github.com/bombsimon/logrusr/v3 v3.1.0
 	github.com/formancehq/go-libs/v5 v5.6.1
-	github.com/formancehq/payments/ce/plugins/adyen v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/atlar v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/bankingcircle v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/column v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/currencycloud v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/dummypay v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/generic v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/increase v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/mangopay v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/modulr v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/moneycorp v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/plaid v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/powens v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/qonto v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/stripe v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/tink v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/wise v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/pkg/client v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/pkg/domain v0.3.2
+	github.com/hanzo-fi/payments/ce/plugins/adyen v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/atlar v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/bankingcircle v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/column v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/currencycloud v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/dummypay v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/generic v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/increase v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/mangopay v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/modulr v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/moneycorp v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/plaid v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/powens v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/qonto v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/stripe v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/tink v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/wise v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/pkg/client v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 	github.com/gibson042/canonicaljson-go v1.0.3
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/go-chi/cors v1.2.2

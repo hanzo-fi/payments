@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/mock"
 	"go.temporal.io/sdk/temporal"
 	"go.temporal.io/sdk/workflow"

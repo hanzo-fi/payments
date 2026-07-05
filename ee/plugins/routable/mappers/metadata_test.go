@@ -3,7 +3,7 @@ package mappers
 import (
 	"testing"
 
-	"github.com/formancehq/payments/ee/plugins/routable/client"
+	"github.com/hanzo-fi/payments/ee/plugins/routable/client"
 )
 
 // TestPayableMetadata_AliasKeys locks in the correlation contract

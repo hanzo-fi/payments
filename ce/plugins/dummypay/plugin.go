@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/formancehq/payments/ce/plugins/dummypay/client"
-	"github.com/formancehq/payments/pkg/domain/models"
-	pkgplugins "github.com/formancehq/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/ce/plugins/dummypay/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
 	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
 )
 

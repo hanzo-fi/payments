@@ -3,8 +3,8 @@ package stripe
 import (
 	"fmt"
 
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 func (p *Plugin) validatePayoutTransferRequest(pi models.PSPPaymentInitiation) error {

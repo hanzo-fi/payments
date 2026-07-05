@@ -28,7 +28,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/formancehq/payments/genericclient"
+    openapiclient "github.com/hanzo-fi/payments/genericclient"
 )
 
 func main() {
@@ -150,7 +150,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/formancehq/payments/genericclient"
+    openapiclient "github.com/hanzo-fi/payments/genericclient"
 )
 
 func main() {
@@ -208,7 +208,7 @@ import (
     "context"
     "fmt"
     "os"
-    openapiclient "github.com/formancehq/payments/genericclient"
+    openapiclient "github.com/hanzo-fi/payments/genericclient"
 )
 
 func main() {

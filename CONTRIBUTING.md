@@ -40,7 +40,7 @@ This guide demonstrates the process of building a basic connector for a hypothet
 
 ## Understanding the Plugin interface
 
-The [Plugin interface](https://github.com/formancehq/payments/blob/main/internal/models/plugin.go#L22-L37) defines the required methods for all connectors and serves as the blueprint for their implementation. Since it's written in Go, Go's type system requires all methods to be implemented to satisfy the interface, even if some are not used by the connector.
+The [Plugin interface](https://github.com/hanzo-fi/payments/blob/main/internal/models/plugin.go#L22-L37) defines the required methods for all connectors and serves as the blueprint for their implementation. Since it's written in Go, Go's type system requires all methods to be implemented to satisfy the interface, even if some are not used by the connector.
 
 The `Install()` and `Uninstall()` methods are essential for activating, deactivating, and managing data synchronization with a PSP, and must always be implemented. Other methods—such as those for data polling, transfer initiation, and webhook management—are optional in terms of functionality but must still be implemented to satisfy the interface. If these methods are not supported by the PSP, they can return an UNIMPLEMENTED error.
 
@@ -156,7 +156,7 @@ Open the `capabilities.go` file in the `internal/connectors/plugins/public/dummy
 ```go
 package dummypay2
 
-import "github.com/formancehq/payments/internal/models"
+import "github.com/hanzo-fi/payments/internal/models"
 
 var capabilities = []models.Capability{
 	models.CAPABILITY_FETCH_ACCOUNTS,
@@ -234,8 +234,8 @@ package dummypay2
 import (
 	"encoding/json"
 
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
-	"github.com/formancehq/payments/internal/models"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/internal/models"
 )
 
 func init() {
@@ -500,7 +500,7 @@ package client
 import (
 	"context"
 
-	"github.com/formancehq/payments/internal/models"
+	"github.com/hanzo-fi/payments/internal/models"
 )
 
 type Client interface {
@@ -792,7 +792,7 @@ You'll then have access to all [API endpoints](https://docs.formance.com/api-ref
 
 The [Connector installation endpoint](https://docs.formance.com/api-reference/paymentsv3/install-a-connector) is particularly helpful for testing the `FetchAccounts` and `FetchBalances` methods which are triggered periodically once a connector is installed.
 
-Although the DummyPay connector is not useful outside of our integration test use-case, to demonstrate what installing a DummyPay connector would look like, let's send a POST request with the configuration payload as defined in [config.go](https://github.com/formancehq/payments/blob/main/internal/connectors/plugins/public/dummypay/config.go).
+Although the DummyPay connector is not useful outside of our integration test use-case, to demonstrate what installing a DummyPay connector would look like, let's send a POST request with the configuration payload as defined in [config.go](https://github.com/hanzo-fi/payments/blob/main/internal/connectors/plugins/public/dummypay/config.go).
 
 ```sh
 $ curl -D - \
@@ -803,7 +803,7 @@ http://localhost:8080/v3/connectors/install/dummypay
 
 ### Additional Connector Configuration
 
-In addition to the configuration we defined explicitly in DummyPay, there are some additional configuration parameters [defined by the Connectivity service](https://github.com/formancehq/payments/blob/main/internal/models/config.go) itself, which control how polling works under the hood:
+In addition to the configuration we defined explicitly in DummyPay, there are some additional configuration parameters [defined by the Connectivity service](https://github.com/hanzo-fi/payments/blob/main/internal/models/config.go) itself, which control how polling works under the hood:
 
 ```sh
 $ curl -D - \

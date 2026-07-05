@@ -1,4 +1,4 @@
-module github.com/formancehq/payments/pkg/domain
+module github.com/hanzo-fi/payments/pkg/domain
 
 go 1.26
 

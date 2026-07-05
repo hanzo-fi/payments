@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/pkg/domain/assets"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/assets"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 // PSPConversion represents an asset conversion (stablecoin, FX, wrapped asset swap).

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/internal/connectors"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"go.temporal.io/sdk/client"
 	"go.uber.org/fx"
 )

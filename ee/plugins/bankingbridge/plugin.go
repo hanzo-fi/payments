@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/ee/plugins/bankingbridge/client"
-	"github.com/formancehq/payments/pkg/domain/models"
-	pkgplugins "github.com/formancehq/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/ee/plugins/bankingbridge/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
 )
 
 const (

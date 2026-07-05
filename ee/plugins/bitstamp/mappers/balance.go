@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // AccountBalanceToPSPBalance derives a PSPBalance from the AccountBalance

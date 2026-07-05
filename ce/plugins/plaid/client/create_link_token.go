@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/plaid/plaid-go/v34/plaid"
 )
 

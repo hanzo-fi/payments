@@ -4,7 +4,7 @@ package main
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"log"
 	"os"
 )

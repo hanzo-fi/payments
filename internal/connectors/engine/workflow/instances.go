@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/pkg/errors"
 	"go.temporal.io/sdk/workflow"
 )

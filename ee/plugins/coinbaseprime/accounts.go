@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // walletTypeTrading identifies the Coinbase Prime wallet type that backs

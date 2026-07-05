@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/ce/plugins/column/client"
-	pkgplugins "github.com/formancehq/payments/pkg/domain/plugins"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/column/client"
+	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 const ProviderName = "column"

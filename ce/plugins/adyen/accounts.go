@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/adyen/adyen-go-api-library/v7/src/management"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type accountsState struct {

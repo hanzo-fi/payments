@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/routable/mappers"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/routable/mappers"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // Cap /v1/companies walks to once per 24h; see MAPPINGS.md §6.5.5.

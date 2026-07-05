@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/formancehq/payments/ce/plugins/generic/client/generated"
-	"github.com/formancehq/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/ce/plugins/generic/client/generated"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
 )
 
 func (c *client) GetBalances(ctx context.Context, accountID string) (*genericclient.Balances, error) {

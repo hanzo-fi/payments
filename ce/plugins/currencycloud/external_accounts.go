@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/currencycloud/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/currencycloud/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type externalAccountsState struct {

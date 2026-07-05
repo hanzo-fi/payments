@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func validateDeleteUserConnectionRequest(req models.DeleteUserConnectionRequest) error {

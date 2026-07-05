@@ -1,5 +1,5 @@
 package plugins
 
-import pkgplugins "github.com/formancehq/payments/pkg/domain/plugins"
+import pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
 
 type Plugin = pkgplugins.Plugin

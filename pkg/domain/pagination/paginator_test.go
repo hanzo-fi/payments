@@ -3,7 +3,7 @@ package pagination_test
 import (
 	"testing"
 
-	"github.com/formancehq/payments/pkg/domain/pagination"
+	"github.com/hanzo-fi/payments/pkg/domain/pagination"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
