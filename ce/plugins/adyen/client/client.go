@@ -9,10 +9,10 @@ import (
 	"github.com/adyen/adyen-go-api-library/v7/src/common"
 	"github.com/adyen/adyen-go-api-library/v7/src/management"
 	"github.com/adyen/adyen-go-api-library/v7/src/webhook"
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 //go:generate mockgen -source client.go -destination client_generated.go -package client . Client

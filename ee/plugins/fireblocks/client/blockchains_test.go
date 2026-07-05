@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
 )
 
 func TestListBlockchainsPaginatesUsingCursor(t *testing.T) {

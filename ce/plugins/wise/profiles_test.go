@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/formancehq/payments/pkg/domain/plugins"
-	"github.com/formancehq/payments/ce/plugins/wise/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/ce/plugins/wise/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"go.uber.org/mock/gomock"
 
 	. "github.com/onsi/ginkgo/v2"

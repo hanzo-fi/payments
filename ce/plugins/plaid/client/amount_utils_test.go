@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

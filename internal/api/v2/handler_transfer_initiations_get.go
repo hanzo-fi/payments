@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/transport/api"
-	"github.com/formancehq/payments/internal/api/backend"
-	"github.com/formancehq/payments/internal/api/common"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/otel"
+	"github.com/hanzo-fi/payments/internal/api/backend"
+	"github.com/hanzo-fi/payments/internal/api/common"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/otel"
 	"go.opentelemetry.io/otel/attribute"
 )
 

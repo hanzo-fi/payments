@@ -11,7 +11,7 @@ import (
 	"golang.org/x/mod/modfile"
 )
 
-const repoModule = "github.com/formancehq/payments"
+const repoModule = "github.com/hanzo-fi/payments"
 
 func main() {
 	connectorDirPath := flag.String("connector-dir-path", "", "Path to the plugins directory (e.g. ce/plugins or ee/plugins)")

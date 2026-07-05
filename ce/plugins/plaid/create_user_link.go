@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	iso6391 "github.com/emvi/iso-639-1"
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"golang.org/x/text/language"
 )
 

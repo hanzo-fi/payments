@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"github.com/google/go-cmp/cmp"
 	"github.com/invopop/jsonschema"
 	"github.com/nats-io/nats.go"

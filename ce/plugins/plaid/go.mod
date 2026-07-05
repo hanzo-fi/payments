@@ -1,14 +1,14 @@
-module github.com/formancehq/payments/ce/plugins/plaid
+module github.com/hanzo-fi/payments/ce/plugins/plaid
 
 go 1.26
 
 require (
 	github.com/emvi/iso-639-1 v1.1.1
 	github.com/formancehq/go-libs/v5 v5.6.1
-	github.com/formancehq/payments/pkg/domain v0.3.2
 	github.com/go-playground/validator/v10 v10.30.3
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/google/uuid v1.6.0
+	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/onsi/ginkgo/v2 v2.32.0
 	github.com/onsi/gomega v1.42.1
@@ -55,3 +55,5 @@ require (
 	golang.org/x/sys v0.46.0 // indirect
 	golang.org/x/tools v0.45.0 // indirect
 )
+
+replace github.com/hanzo-fi/payments/pkg/domain => ../../../pkg/domain

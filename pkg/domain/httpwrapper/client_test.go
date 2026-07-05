@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

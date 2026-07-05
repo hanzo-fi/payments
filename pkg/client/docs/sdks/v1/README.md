@@ -62,7 +62,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -113,11 +113,11 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/types"
+	"github.com/hanzo-fi/payments/pkg/client/types"
 	"math/big"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -177,7 +177,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -235,7 +235,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -287,7 +287,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -343,7 +343,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -401,10 +401,10 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/types"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/types"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"math/big"
 	"log"
 )
@@ -466,7 +466,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -518,7 +518,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -570,9 +570,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -626,10 +626,10 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"math/big"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -689,7 +689,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -741,7 +741,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -799,9 +799,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -859,7 +859,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -911,7 +911,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -963,9 +963,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1021,9 +1021,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1077,7 +1077,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1130,9 +1130,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/types"
+	"github.com/hanzo-fi/payments/pkg/client/types"
 	"log"
 )
 
@@ -1184,7 +1184,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1236,10 +1236,10 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/types"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/types"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1295,9 +1295,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/operations"
+	"github.com/hanzo-fi/payments/pkg/client/models/operations"
 	"log"
 )
 
@@ -1354,7 +1354,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1406,9 +1406,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/operations"
+	"github.com/hanzo-fi/payments/pkg/client/models/operations"
 	"log"
 )
 
@@ -1466,9 +1466,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1522,7 +1522,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1579,7 +1579,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1631,9 +1631,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1687,9 +1687,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1745,7 +1745,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1796,7 +1796,7 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
 	"log"
 )
@@ -1847,9 +1847,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1908,9 +1908,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -1961,9 +1961,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2017,9 +2017,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2070,9 +2070,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2130,9 +2130,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2188,9 +2188,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2243,9 +2243,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2299,9 +2299,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2354,9 +2354,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2412,9 +2412,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2466,9 +2466,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"log"
 )
 
@@ -2521,9 +2521,9 @@ package main
 
 import(
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"os"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"math/big"
 	"log"
 )

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 // aggregatedBalance accumulates same-canonical-asset VaultAssets within a

@@ -1,6 +1,6 @@
 package mappers
 
-import "github.com/formancehq/payments/ee/plugins/routable/client"
+import "github.com/hanzo-fi/payments/ee/plugins/routable/client"
 
 const MetadataPrefix = "com.routable.spec/"
 

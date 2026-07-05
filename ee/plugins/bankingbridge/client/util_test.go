@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/formancehq/payments/ee/plugins/bankingbridge/client"
+	"github.com/hanzo-fi/payments/ee/plugins/bankingbridge/client"
 )
 
 func TestRawQuery(t *testing.T) {

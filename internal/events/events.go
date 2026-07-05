@@ -7,7 +7,7 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	eventsdef "github.com/formancehq/payments/pkg/events"
+	eventsdef "github.com/hanzo-fi/payments/pkg/events"
 )
 
 type Events struct {

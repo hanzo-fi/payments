@@ -3,7 +3,7 @@ package bankingcircle
 import (
 	"encoding/json"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (p *Plugin) createBankAccount(req models.CreateBankAccountRequest) (models.CreateBankAccountResponse, error) {

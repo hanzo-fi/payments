@@ -1,6 +1,6 @@
 package bankingbridge
 
-import "github.com/formancehq/payments/pkg/domain/models"
+import "github.com/hanzo-fi/payments/pkg/domain/models"
 
 var ImportedAtLayout = "2006-01-02 15:04:05.999999Z"
 

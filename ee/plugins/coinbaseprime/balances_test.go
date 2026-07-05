@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/plugins"
-	"github.com/formancehq/payments/ee/plugins/coinbaseprime/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/ee/plugins/coinbaseprime/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"

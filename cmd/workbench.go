@@ -10,8 +10,8 @@ import (
 	"syscall"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
-	"github.com/formancehq/payments/tools/workbench"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/tools/workbench"
 	"github.com/spf13/cobra"
 )
 

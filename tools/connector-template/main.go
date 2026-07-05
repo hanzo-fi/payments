@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-const repoModule = "github.com/formancehq/payments"
+const repoModule = "github.com/hanzo-fi/payments"
 
 var (
 	connectorDirPath = flag.String("connector-dir-path", "", "Path where to create the new connector directory")

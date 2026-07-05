@@ -8,8 +8,8 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/query"
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"github.com/google/uuid"
 )
 

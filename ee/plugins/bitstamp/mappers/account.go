@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // AccountEnrichment is the install-time-loaded asset context folded

@@ -9,9 +9,9 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/query"
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
 	"github.com/formancehq/go-libs/v5/pkg/types/time"
-	internalEvents "github.com/formancehq/payments/internal/events"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/pkg/events"
+	internalEvents "github.com/hanzo-fi/payments/internal/events"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/events"
 	"github.com/google/uuid"
 	"github.com/uptrace/bun"
 )

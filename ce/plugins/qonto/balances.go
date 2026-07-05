@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/formancehq/payments/ce/plugins/qonto/client"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/ce/plugins/qonto/client"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"math/big"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 /*

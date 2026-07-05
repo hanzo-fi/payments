@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	pluginserrors "github.com/formancehq/payments/internal/connectors/plugins"
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
-	"github.com/formancehq/payments/pkg/domain/models"
+	pluginserrors "github.com/hanzo-fi/payments/internal/connectors/plugins"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/pkg/errors"
 )
 

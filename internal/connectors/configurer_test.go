@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/payments/internal/connectors"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/connectors"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

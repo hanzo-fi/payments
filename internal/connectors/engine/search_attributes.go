@@ -1,7 +1,7 @@
 package engine
 
 import (
-	"github.com/formancehq/payments/internal/connectors/engine/workflow"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/workflow"
 	"go.temporal.io/api/enums/v1"
 )
 

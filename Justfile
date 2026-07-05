@@ -76,11 +76,11 @@ generate: generate-sdk
 
 [group('build')]
 build-ce: compile-plugins
-    go build -ldflags "-X github.com/formancehq/payments/cmd.Edition=community" -o payments .
+    go build -ldflags "-X github.com/hanzo-fi/payments/cmd.Edition=community" -o payments .
 
 [group('build')]
 build-ee: compile-plugins
-    go build -tags ee -ldflags "-X github.com/formancehq/payments/cmd.Edition=enterprise" -o payments-ee .
+    go build -tags ee -ldflags "-X github.com/hanzo-fi/payments/cmd.Edition=enterprise" -o payments-ee .
 
 [group('releases')]
 release-local:

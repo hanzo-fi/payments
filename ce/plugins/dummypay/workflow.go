@@ -1,6 +1,6 @@
 package dummypay
 
-import "github.com/formancehq/payments/pkg/domain/models"
+import "github.com/hanzo-fi/payments/pkg/domain/models"
 
 //nolint:unused
 func workflow() models.ConnectorTasksTree {

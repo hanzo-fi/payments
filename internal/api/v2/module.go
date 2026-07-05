@@ -1,7 +1,7 @@
 package v2
 
 import (
-	"github.com/formancehq/payments/internal/api"
+	"github.com/hanzo-fi/payments/internal/api"
 	"go.uber.org/fx"
 )
 

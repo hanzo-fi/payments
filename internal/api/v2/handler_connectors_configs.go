@@ -5,10 +5,10 @@ import (
 	"net/http"
 
 	"github.com/formancehq/go-libs/v5/pkg/transport/api"
-	"github.com/formancehq/payments/internal/api/backend"
-	"github.com/formancehq/payments/internal/api/common"
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
-	"github.com/formancehq/payments/internal/otel"
+	"github.com/hanzo-fi/payments/internal/api/backend"
+	"github.com/hanzo-fi/payments/internal/api/common"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/internal/otel"
 )
 
 func connectorsConfigs(backend backend.Backend) http.HandlerFunc {

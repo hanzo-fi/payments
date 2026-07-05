@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (s *Service) ConnectorsReset(ctx context.Context, connectorID models.ConnectorID) (models.Task, error) {

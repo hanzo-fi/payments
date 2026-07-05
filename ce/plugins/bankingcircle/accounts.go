@@ -8,9 +8,9 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/ce/plugins/bankingcircle/client"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/pkg/domain/pagination"
+	"github.com/hanzo-fi/payments/ce/plugins/bankingcircle/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/pagination"
 )
 
 type accountsState struct {

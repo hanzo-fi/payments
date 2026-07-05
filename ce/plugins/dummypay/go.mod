@@ -1,12 +1,12 @@
-module github.com/formancehq/payments/ce/plugins/dummypay
+module github.com/hanzo-fi/payments/ce/plugins/dummypay
 
 go 1.26
 
 require (
 	github.com/formancehq/go-libs/v5 v5.6.1
-	github.com/formancehq/payments/pkg/domain v0.3.2
 	github.com/go-playground/validator/v10 v10.30.3
 	github.com/google/uuid v1.6.0
+	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 )
 
 require (
@@ -37,3 +37,5 @@ require (
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
 )
+
+replace github.com/hanzo-fi/payments/pkg/domain => ../../../pkg/domain

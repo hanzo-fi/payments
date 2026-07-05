@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
-	"github.com/formancehq/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
 )
 
 //go:generate mockgen -source client.go -destination client_generated.go -package client . Client
