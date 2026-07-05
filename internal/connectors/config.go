@@ -3,7 +3,7 @@ package connectors
 import (
 	"encoding/json"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func combineConfigs(baseConfig models.Config, pluginConfig models.PluginInternalConfig) ([]byte, error) {

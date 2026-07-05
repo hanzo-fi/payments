@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/ce/plugins/currencycloud/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/currencycloud/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type paymentsState struct {

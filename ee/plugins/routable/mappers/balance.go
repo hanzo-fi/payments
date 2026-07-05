@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/routable/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/routable/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func AccountToBalance(a client.Account, now time.Time) (models.PSPBalance, error) {

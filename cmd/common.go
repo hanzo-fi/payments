@@ -22,9 +22,10 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
 	sharedapi "github.com/formancehq/go-libs/v5/pkg/transport/api"
 	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
-	"github.com/formancehq/payments/internal/connectors/engine"
-	connectormetrics "github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/storage/bunconnect"
+	connectormetrics "github.com/hanzo-fi/payments/pkg/domain/metrics"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"go.opentelemetry.io/otel"
@@ -47,6 +48,7 @@ func commonFlags(cmd *cobra.Command) {
 	jwt.AddFlags(cmd.Flags())
 	publish.AddFlags(ServiceName, cmd.Flags())
 	connect.AddFlags(cmd.Flags())
+	bunconnect.AddFlags(cmd.Flags())
 	iam.AddFlags(cmd.Flags())
 	profiling.AddFlags(cmd.Flags())
 	temporal.AddFlags(cmd.Flags())

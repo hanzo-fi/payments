@@ -42,7 +42,7 @@ Developer-friendly & type-safe Go SDK specifically catered to leverage *openapi*
 
 To add the SDK as a dependency to your project:
 ```bash
-go get github.com/formancehq/payments/pkg/client
+go get github.com/hanzo-fi/payments/pkg/client
 ```
 <!-- End SDK Installation [installation] -->
 
@@ -56,7 +56,7 @@ package main
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"log"
 	"os"
 )
@@ -98,7 +98,7 @@ package main
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client"
 	"log"
 	"os"
 )
@@ -267,8 +267,8 @@ package main
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client"
-	"github.com/formancehq/payments/pkg/client/retry"
+	"github.com/hanzo-fi/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client/retry"
 	"log"
 	"models/operations"
 	"os"
@@ -309,8 +309,8 @@ package main
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client"
-	"github.com/formancehq/payments/pkg/client/retry"
+	"github.com/hanzo-fi/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client/retry"
 	"log"
 	"os"
 )
@@ -367,8 +367,8 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/formancehq/payments/pkg/client"
-	"github.com/formancehq/payments/pkg/client/models/sdkerrors"
+	"github.com/hanzo-fi/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/client/models/sdkerrors"
 	"log"
 	"os"
 )

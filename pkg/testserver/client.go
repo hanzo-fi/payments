@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
-	"github.com/formancehq/payments/pkg/domain/models"
-	formance "github.com/formancehq/payments/pkg/client"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	formance "github.com/hanzo-fi/payments/pkg/client"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,8 +10,8 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	_ "github.com/formancehq/payments/internal/connectors/plugins/registry"
-	formance "github.com/formancehq/payments/pkg/client"
+	_ "github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	formance "github.com/hanzo-fi/payments/pkg/client"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe"
 	"github.com/formancehq/go-libs/v5/pkg/observe/metrics"
@@ -23,7 +23,7 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
 	"github.com/formancehq/go-libs/v5/pkg/transport/httpclient"
 	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
-	"github.com/formancehq/payments/cmd"
+	"github.com/hanzo-fi/payments/cmd"
 	"github.com/stretchr/testify/require"
 )
 

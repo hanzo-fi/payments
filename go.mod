@@ -1,45 +1,45 @@
-module github.com/formancehq/payments
+module github.com/hanzo-fi/payments
 
 go 1.26
 
-replace github.com/formancehq/payments/pkg/client => ./pkg/client
+replace github.com/hanzo-fi/payments/pkg/client => ./pkg/client
 
 // replace => ./pkg/domain means Go will never actually fetch v0.x.x from the proxy but go mod tidy still updates the version number in require to accurately reflect the minimum version. The local directory is what gets compiled — the version is just a bookkeeping number for MVS consistency.
-replace github.com/formancehq/payments/pkg/domain => ./pkg/domain
+replace github.com/hanzo-fi/payments/pkg/domain => ./pkg/domain
 
-replace github.com/formancehq/payments/ce/plugins/adyen => ./ce/plugins/adyen
+replace github.com/hanzo-fi/payments/ce/plugins/adyen => ./ce/plugins/adyen
 
-replace github.com/formancehq/payments/ce/plugins/dummypay => ./ce/plugins/dummypay
+replace github.com/hanzo-fi/payments/ce/plugins/dummypay => ./ce/plugins/dummypay
 
-replace github.com/formancehq/payments/ce/plugins/atlar => ./ce/plugins/atlar
+replace github.com/hanzo-fi/payments/ce/plugins/atlar => ./ce/plugins/atlar
 
-replace github.com/formancehq/payments/ce/plugins/bankingcircle => ./ce/plugins/bankingcircle
+replace github.com/hanzo-fi/payments/ce/plugins/bankingcircle => ./ce/plugins/bankingcircle
 
-replace github.com/formancehq/payments/ce/plugins/column => ./ce/plugins/column
+replace github.com/hanzo-fi/payments/ce/plugins/column => ./ce/plugins/column
 
-replace github.com/formancehq/payments/ce/plugins/currencycloud => ./ce/plugins/currencycloud
+replace github.com/hanzo-fi/payments/ce/plugins/currencycloud => ./ce/plugins/currencycloud
 
-replace github.com/formancehq/payments/ce/plugins/generic => ./ce/plugins/generic
+replace github.com/hanzo-fi/payments/ce/plugins/generic => ./ce/plugins/generic
 
-replace github.com/formancehq/payments/ce/plugins/increase => ./ce/plugins/increase
+replace github.com/hanzo-fi/payments/ce/plugins/increase => ./ce/plugins/increase
 
-replace github.com/formancehq/payments/ce/plugins/mangopay => ./ce/plugins/mangopay
+replace github.com/hanzo-fi/payments/ce/plugins/mangopay => ./ce/plugins/mangopay
 
-replace github.com/formancehq/payments/ce/plugins/modulr => ./ce/plugins/modulr
+replace github.com/hanzo-fi/payments/ce/plugins/modulr => ./ce/plugins/modulr
 
-replace github.com/formancehq/payments/ce/plugins/moneycorp => ./ce/plugins/moneycorp
+replace github.com/hanzo-fi/payments/ce/plugins/moneycorp => ./ce/plugins/moneycorp
 
-replace github.com/formancehq/payments/ce/plugins/plaid => ./ce/plugins/plaid
+replace github.com/hanzo-fi/payments/ce/plugins/plaid => ./ce/plugins/plaid
 
-replace github.com/formancehq/payments/ce/plugins/powens => ./ce/plugins/powens
+replace github.com/hanzo-fi/payments/ce/plugins/powens => ./ce/plugins/powens
 
-replace github.com/formancehq/payments/ce/plugins/qonto => ./ce/plugins/qonto
+replace github.com/hanzo-fi/payments/ce/plugins/qonto => ./ce/plugins/qonto
 
-replace github.com/formancehq/payments/ce/plugins/stripe => ./ce/plugins/stripe
+replace github.com/hanzo-fi/payments/ce/plugins/stripe => ./ce/plugins/stripe
 
-replace github.com/formancehq/payments/ce/plugins/tink => ./ce/plugins/tink
+replace github.com/hanzo-fi/payments/ce/plugins/tink => ./ce/plugins/tink
 
-replace github.com/formancehq/payments/ce/plugins/wise => ./ce/plugins/wise
+replace github.com/hanzo-fi/payments/ce/plugins/wise => ./ce/plugins/wise
 
 replace gopkg.in/go-jose/go-jose.v4 => github.com/go-jose/go-jose/v4 v4.1.4
 
@@ -47,25 +47,6 @@ require (
 	github.com/ThreeDotsLabs/watermill v1.5.1
 	github.com/bombsimon/logrusr/v3 v3.1.0
 	github.com/formancehq/go-libs/v5 v5.6.1
-	github.com/formancehq/payments/ce/plugins/adyen v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/atlar v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/bankingcircle v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/column v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/currencycloud v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/dummypay v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/generic v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/increase v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/mangopay v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/modulr v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/moneycorp v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/plaid v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/powens v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/qonto v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/stripe v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/tink v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/ce/plugins/wise v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/pkg/client v0.0.0-00010101000000-000000000000
-	github.com/formancehq/payments/pkg/domain v0.3.2
 	github.com/gibson042/canonicaljson-go v1.0.3
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/go-chi/cors v1.2.2
@@ -77,6 +58,25 @@ require (
 	github.com/golang/mock v1.7.0-rc.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
+	github.com/hanzo-fi/payments/ce/plugins/adyen v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/atlar v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/bankingcircle v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/column v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/currencycloud v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/dummypay v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/generic v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/increase v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/mangopay v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/modulr v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/moneycorp v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/plaid v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/powens v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/qonto v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/stripe v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/tink v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/ce/plugins/wise v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/pkg/client v0.0.0-00010101000000-000000000000
+	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 	github.com/invopop/jsonschema v0.13.0
 	github.com/jackc/pgx/v5 v5.9.2
 	github.com/jackc/pgxlisten v0.0.0-20250802141604-12b92425684c
@@ -90,6 +90,7 @@ require (
 	github.com/stretchr/testify v1.11.1
 	github.com/uptrace/bun v1.2.18
 	github.com/uptrace/bun/dialect/pgdialect v1.2.18
+	github.com/uptrace/bun/dialect/sqlitedialect v1.2.18
 	github.com/uptrace/bun/extra/bundebug v1.2.15
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.69.0
@@ -105,6 +106,16 @@ require (
 	golang.org/x/text v0.38.0
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v3 v3.0.1
+	modernc.org/sqlite v1.51.0
+)
+
+require (
+	github.com/dustin/go-humanize v1.0.1 // indirect
+	github.com/ncruces/go-strftime v1.0.0 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
+	modernc.org/libc v1.72.3 // indirect
+	modernc.org/mathutil v1.7.1 // indirect
+	modernc.org/memory v1.11.0 // indirect
 )
 
 require (
@@ -264,13 +275,13 @@ require (
 	github.com/riandyrn/otelchi v0.12.2 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/shirou/gopsutil/v4 v4.26.2 // indirect
-	github.com/spf13/pflag v1.0.10 // indirect
+	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/objx v0.5.3 // indirect
 	github.com/stripe/stripe-go/v80 v80.2.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.16 // indirect
 	github.com/tklauser/numcpus v0.11.0 // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
-	github.com/uptrace/bun/extra/bunotel v1.2.18 // indirect
+	github.com/uptrace/bun/extra/bunotel v1.2.18
 	github.com/uptrace/opentelemetry-go-extra/otellogrus v0.3.2 // indirect
 	github.com/uptrace/opentelemetry-go-extra/otelsql v0.3.2 // indirect
 	github.com/uptrace/opentelemetry-go-extra/otelutil v0.3.2 // indirect

@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/generic/client/generated"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/pkg/domain/pagination"
+	"github.com/hanzo-fi/payments/ce/plugins/generic/client/generated"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/pagination"
 )
 
 type paymentsState struct {

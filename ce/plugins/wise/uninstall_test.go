@@ -3,8 +3,8 @@ package wise
 import (
 	"fmt"
 
-	"github.com/formancehq/payments/ce/plugins/wise/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/wise/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"

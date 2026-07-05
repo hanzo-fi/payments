@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func validateCompleteUserLinkRequest(req models.CompleteUserLinkRequest) error {

@@ -12,7 +12,7 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/service"
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
 	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
-	"github.com/formancehq/payments/cmd"
+	"github.com/hanzo-fi/payments/cmd"
 )
 
 func Flags(command string, serverID string, configuration Configuration) []string {

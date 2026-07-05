@@ -13,7 +13,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	models "github.com/formancehq/payments/pkg/domain/models"
+	models "github.com/hanzo-fi/payments/pkg/domain/models"
 	stripe "github.com/stripe/stripe-go/v80"
 	gomock "go.uber.org/mock/gomock"
 )

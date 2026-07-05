@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/formancehq/payments/internal/connectors/engine"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 	gomock "go.uber.org/mock/gomock"

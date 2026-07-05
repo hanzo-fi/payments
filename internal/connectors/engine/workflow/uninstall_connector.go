@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"github.com/pkg/errors"
 	"go.temporal.io/api/enums/v1"
 	"go.temporal.io/sdk/workflow"

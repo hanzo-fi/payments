@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // DefaultPageSize is the default page size for fetching.

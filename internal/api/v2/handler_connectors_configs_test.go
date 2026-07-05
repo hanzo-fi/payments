@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/formancehq/payments/internal/api/backend"
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/internal/api/backend"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
 	. "github.com/onsi/ginkgo/v2"
 	"go.uber.org/mock/gomock"
 )

@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/formancehq/payments/pkg/domain/assets"
+	"github.com/hanzo-fi/payments/pkg/domain/assets"
 )
 
 type PSPBalance struct {

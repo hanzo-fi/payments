@@ -3,8 +3,8 @@ package bankingbridge_test
 import (
 	"testing"
 
-	"github.com/formancehq/payments/ee/plugins/bankingbridge"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/bankingbridge"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/assert"
 )
 

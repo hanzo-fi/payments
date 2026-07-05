@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/generic/client/generated"
-	"github.com/formancehq/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/ce/plugins/generic/client/generated"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
 )
 
 func (c *client) ListTransactions(ctx context.Context, page, pageSize int64, updatedAtFrom time.Time) ([]genericclient.Transaction, error) {

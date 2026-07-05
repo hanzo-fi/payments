@@ -7,7 +7,7 @@ import (
     . "github.com/onsi/ginkgo/v2"
     . "github.com/onsi/gomega"
 
-    powensclient "github.com/formancehq/payments/ce/plugins/powens/client"
+    powensclient "github.com/hanzo-fi/payments/ce/plugins/powens/client"
 )
 
 var _ = Describe("Client webhooks JSON (marshal/unmarshal)", func() {

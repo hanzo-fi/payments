@@ -19,7 +19,7 @@ OUT_CE="$REPO_ROOT/internal/connectors/plugins/registry/generated_ce.go"
 OUT_EE="$REPO_ROOT/internal/connectors/plugins/registry/generated_ee.go"
 OUT_ENTERPRISE_CE="$REPO_ROOT/internal/connectors/plugins/registry/enterprise_ce.go"
 OUT_ENTERPRISE_EE="$REPO_ROOT/internal/connectors/plugins/registry/enterprise_ee.go"
-MOD="github.com/formancehq/payments"
+MOD="github.com/hanzo-fi/payments"
 
 # ── gather plugin lists ───────────────────────────────────────────────────────
 ce_plugins=$(find "$CE_DIR" -mindepth 1 -maxdepth 1 -type d | sort | while read -r d; do basename "$d"; done)
@@ -28,7 +28,7 @@ ee_plugins=$(find "$EE_DIR" -mindepth 1 -maxdepth 1 -type d | sort | while read 
 # ── helpers ───────────────────────────────────────────────────────────────────
 
 # emit one import line per plugin name
-# $1 = import path prefix (e.g. "github.com/formancehq/payments/internal/connectors/plugins/public")
+# $1 = import path prefix (e.g. "github.com/hanzo-fi/payments/internal/connectors/plugins/public")
 # reads plugin names from stdin (one per line)
 emit_imports() {
     prefix="$1"

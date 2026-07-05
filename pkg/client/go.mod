@@ -1,4 +1,4 @@
-module github.com/formancehq/payments/pkg/client
+module github.com/hanzo-fi/payments/pkg/client
 
 go 1.20
 

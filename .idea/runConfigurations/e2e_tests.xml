@@ -9,7 +9,7 @@
     </EXTENSION>
     <root_directory value="$PROJECT_DIR$" />
     <kind value="PACKAGE" />
-    <package value="github.com/formancehq/payments/test/e2e" />
+    <package value="github.com/hanzo-fi/payments/test/e2e" />
     <directory value="$PROJECT_DIR$" />
     <filePath value="$PROJECT_DIR$" />
     <framework value="gotest" />

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/formancehq/payments/ce/plugins/column/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/column/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"

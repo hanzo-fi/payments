@@ -6,8 +6,8 @@ import (
 	"math/big"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/ce/plugins/column/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/column/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (p *Plugin) createReversePayout(ctx context.Context, pr models.PSPPaymentInitiationReversal) (models.ReversePayoutResponse, error) {

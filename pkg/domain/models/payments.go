@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"time"
 
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"github.com/google/uuid"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/pkg/domain/assets"
+	"github.com/hanzo-fi/payments/pkg/domain/assets"
 )
 
 // Internal struct used by the plugins

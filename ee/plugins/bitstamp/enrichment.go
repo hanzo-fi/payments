@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
-	"github.com/formancehq/payments/ee/plugins/bitstamp/mappers"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/mappers"
 	"golang.org/x/sync/errgroup"
 )
 

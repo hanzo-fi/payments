@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/formancehq/payments/ce/plugins/increase/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/increase/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (p *Plugin) validatePayoutRequests(pi models.PSPPaymentInitiation) error {

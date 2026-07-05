@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
 	"github.com/formancehq/go-libs/v5/pkg/storage/bun/migrate"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"github.com/spf13/cobra"
 	"github.com/uptrace/bun"
 

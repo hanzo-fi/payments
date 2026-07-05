@@ -3,8 +3,8 @@
 package operations
 
 import (
-	"github.com/formancehq/payments/pkg/client/internal/utils"
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/internal/utils"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 )
 
 type ListAccountsRequest struct {

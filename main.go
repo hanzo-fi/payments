@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/formancehq/payments/cmd"
+	"github.com/hanzo-fi/payments/cmd"
 )
 
 func main() {
