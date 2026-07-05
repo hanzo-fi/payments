@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/formancehq/payments/ce/plugins/currencycloud/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/currencycloud/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"go.uber.org/mock/gomock"

@@ -3,9 +3,9 @@ package services
 import (
 	"fmt"
 
-	"github.com/formancehq/payments/internal/connectors/engine"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"github.com/pkg/errors"
 )
 

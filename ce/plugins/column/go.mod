@@ -1,11 +1,11 @@
-module github.com/formancehq/payments/ce/plugins/column
+module github.com/hanzo-fi/payments/ce/plugins/column
 
 go 1.26
 
 require (
 	github.com/formancehq/go-libs/v5 v5.6.1
-	github.com/formancehq/payments/pkg/domain v0.3.2
 	github.com/go-playground/validator/v10 v10.30.3
+	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 	github.com/onsi/ginkgo/v2 v2.32.0
 	github.com/onsi/gomega v1.42.1
 	github.com/pkg/errors v0.9.1
@@ -55,3 +55,5 @@ require (
 	golang.org/x/tools v0.45.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/hanzo-fi/payments/pkg/domain => ../../../pkg/domain

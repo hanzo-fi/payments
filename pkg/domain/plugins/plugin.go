@@ -1,6 +1,6 @@
 package plugins
 
-import "github.com/formancehq/payments/pkg/domain/models"
+import "github.com/hanzo-fi/payments/pkg/domain/models"
 
 type Plugin struct {
 	models.PSPPlugin

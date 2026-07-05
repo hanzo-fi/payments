@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/ce/plugins/qonto/client"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/ce/plugins/qonto/client"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"sort"
 	"strconv"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type accountsState struct {

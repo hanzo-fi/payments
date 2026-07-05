@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/google/uuid"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

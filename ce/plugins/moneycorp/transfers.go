@@ -9,10 +9,10 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/ce/plugins/moneycorp/client"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/ce/plugins/moneycorp/client"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/plugins"
 )
 
 func (p *Plugin) createTransfer(ctx context.Context, pi models.PSPPaymentInitiation) (*models.PSPPayment, error) {

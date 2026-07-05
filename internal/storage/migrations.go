@@ -6,7 +6,7 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
 	"github.com/formancehq/go-libs/v5/pkg/storage/migrations"
-	paymentsMigration "github.com/formancehq/payments/internal/storage/migrations"
+	paymentsMigration "github.com/hanzo-fi/payments/internal/storage/migrations"
 	"github.com/uptrace/bun"
 )
 

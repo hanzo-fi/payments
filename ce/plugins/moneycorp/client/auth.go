@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 

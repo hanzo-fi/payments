@@ -14,7 +14,7 @@ import (
 
 	"github.com/ericlagergren/decimal"
 
-	"github.com/formancehq/payments/pkg/client/types"
+	"github.com/hanzo-fi/payments/pkg/client/types"
 )
 
 func PopulateQueryParams(_ context.Context, req *http.Request, queryParams interface{}, globals interface{}) error {

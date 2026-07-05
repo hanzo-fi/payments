@@ -3,7 +3,7 @@ package bankingcircle
 import (
 	"encoding/json"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/go-playground/validator/v10"
 	"github.com/pkg/errors"
 )

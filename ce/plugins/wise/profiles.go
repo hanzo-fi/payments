@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 type profilesState struct {

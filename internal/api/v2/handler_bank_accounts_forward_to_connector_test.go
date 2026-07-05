@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/formancehq/payments/internal/api/backend"
-	"github.com/formancehq/payments/internal/api/validation"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/api/backend"
+	"github.com/hanzo-fi/payments/internal/api/validation"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/google/uuid"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (p *Plugin) uninstall(ctx context.Context, req models.UninstallRequest) (models.UninstallResponse, error) {

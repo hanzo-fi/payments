@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
 )
 
 func TestPaymentMetadata(t *testing.T) {

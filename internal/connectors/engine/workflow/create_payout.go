@@ -3,9 +3,9 @@ package workflow
 import (
 	"fmt"
 
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"go.temporal.io/api/enums/v1"
 	"go.temporal.io/sdk/client"
 	"go.temporal.io/sdk/temporal"

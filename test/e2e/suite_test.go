@@ -17,7 +17,7 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/testing/platform/natstesting"
 	"github.com/formancehq/go-libs/v5/pkg/testing/platform/pgtesting"
 	"github.com/formancehq/go-libs/v5/pkg/testing/platform/temporaltesting"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/storage"
 	"go.temporal.io/api/serviceerror"
 	v17 "go.temporal.io/api/workflow/v1"
 	"go.temporal.io/api/workflowservice/v1"

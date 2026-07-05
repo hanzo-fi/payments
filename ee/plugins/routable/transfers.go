@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/formancehq/payments/ee/plugins/routable/mappers"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/routable/mappers"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // createTransfer mirrors createPayout: Routable maps both flows onto the

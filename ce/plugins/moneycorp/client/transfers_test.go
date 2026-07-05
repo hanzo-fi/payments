@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/require"
 )
 

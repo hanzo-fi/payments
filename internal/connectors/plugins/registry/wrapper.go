@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/payments/pkg/domain/models"
-	"github.com/formancehq/payments/internal/otel"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/otel"
 	"go.opentelemetry.io/otel/attribute"
 )
 

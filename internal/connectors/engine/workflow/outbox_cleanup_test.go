@@ -3,7 +3,7 @@ package workflow
 import (
 	"errors"
 
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
 	"github.com/stretchr/testify/mock"
 	"go.temporal.io/sdk/temporal"
 )

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // Baseline represents a saved snapshot of connector output for comparison.

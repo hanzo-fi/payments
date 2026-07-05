@@ -3,7 +3,7 @@ package mappers
 import (
 	"strconv"
 
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
 )
 
 // MetadataPrefix namespaces every Bitstamp-specific metadata key.

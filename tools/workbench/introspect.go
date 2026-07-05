@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/formancehq/payments/internal/connectors/plugins/registry"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 // Introspector provides code introspection capabilities for connectors.

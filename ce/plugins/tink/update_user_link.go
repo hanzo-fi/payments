@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/formancehq/payments/ce/plugins/tink/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/tink/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func validateUpdateUserLinkRequest(req models.UpdateUserLinkRequest) error {

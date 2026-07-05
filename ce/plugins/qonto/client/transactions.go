@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"net/http"
 	"time"
 )

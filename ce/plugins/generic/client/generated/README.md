@@ -29,7 +29,7 @@ go get golang.org/x/net/context
 Put the package under your project folder and add the following in import:
 
 ```golang
-import genericclient "github.com/formancehq/payments/genericclient"
+import genericclient "github.com/hanzo-fi/payments/genericclient"
 ```
 
 ## Configuration of Server URL

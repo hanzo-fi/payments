@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/formancehq/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
 )
 
 type V3ForwardBankAccountRequest struct {

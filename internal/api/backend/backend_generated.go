@@ -16,9 +16,9 @@ import (
 	time "time"
 
 	paginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
-	registry "github.com/formancehq/payments/internal/connectors/plugins/registry"
-	storage "github.com/formancehq/payments/internal/storage"
-	models "github.com/formancehq/payments/pkg/domain/models"
+	registry "github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
+	storage "github.com/hanzo-fi/payments/internal/storage"
+	models "github.com/hanzo-fi/payments/pkg/domain/models"
 	uuid "github.com/google/uuid"
 	gomock "go.uber.org/mock/gomock"
 )

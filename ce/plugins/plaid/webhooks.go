@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/ce/plugins/plaid/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/plaid/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 	"github.com/plaid/plaid-go/v34/plaid"

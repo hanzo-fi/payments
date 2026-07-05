@@ -7,9 +7,9 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/observe/log"
 	"github.com/formancehq/go-libs/v5/pkg/testing/deferred"
-	"github.com/formancehq/payments/pkg/client/models/components"
-	evts "github.com/formancehq/payments/pkg/events"
-	. "github.com/formancehq/payments/pkg/testserver"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
+	evts "github.com/hanzo-fi/payments/pkg/events"
+	. "github.com/hanzo-fi/payments/pkg/testserver"
 	"github.com/google/uuid"
 	"github.com/nats-io/nats.go"
 

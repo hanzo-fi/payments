@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/bankingbridge/client"
-	"github.com/formancehq/payments/pkg/domain/plugins"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/bankingbridge/client"
+	"github.com/hanzo-fi/payments/pkg/domain/plugins"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"

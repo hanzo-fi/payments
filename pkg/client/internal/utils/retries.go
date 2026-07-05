@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/formancehq/payments/pkg/client/retry"
+	"github.com/hanzo-fi/payments/pkg/client/retry"
 	"math"
 	"math/rand"
 	"net/http"

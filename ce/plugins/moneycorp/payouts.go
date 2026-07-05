@@ -8,9 +8,9 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
 	"github.com/formancehq/go-libs/v5/pkg/types/currency"
-	"github.com/formancehq/payments/ce/plugins/moneycorp/client"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/ce/plugins/moneycorp/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 func (p *Plugin) createPayout(ctx context.Context, pi models.PSPPaymentInitiation) (*models.PSPPayment, error) {

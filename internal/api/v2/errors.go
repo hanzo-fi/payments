@@ -4,14 +4,14 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/formancehq/payments/internal/connectors"
-	"github.com/formancehq/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/internal/connectors"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
 
 	"github.com/formancehq/go-libs/v5/pkg/transport/api"
-	"github.com/formancehq/payments/internal/api/common"
-	"github.com/formancehq/payments/internal/api/services"
-	"github.com/formancehq/payments/internal/storage"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/internal/api/common"
+	"github.com/hanzo-fi/payments/internal/api/services"
+	"github.com/hanzo-fi/payments/internal/storage"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 const (

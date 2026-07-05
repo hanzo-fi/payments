@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/formancehq/payments/pkg/domain/httpwrapper"
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/ce/plugins/modulr/client/hmac"
+	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/ce/plugins/modulr/client/hmac"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )
 

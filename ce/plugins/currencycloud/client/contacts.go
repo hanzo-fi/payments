@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/pkg/domain/models"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 )
 
 type Contact struct {

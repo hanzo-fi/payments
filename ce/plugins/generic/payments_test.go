@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/ce/plugins/generic/client"
-	genericclient "github.com/formancehq/payments/ce/plugins/generic/client/generated"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/generic/client"
+	genericclient "github.com/hanzo-fi/payments/ce/plugins/generic/client/generated"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/require"

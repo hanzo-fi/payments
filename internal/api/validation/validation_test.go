@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/internal/api/validation"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/internal/api/validation"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/google/uuid"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

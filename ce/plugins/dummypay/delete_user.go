@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func validateDeleteUserRequest(req models.DeleteUserRequest) error {

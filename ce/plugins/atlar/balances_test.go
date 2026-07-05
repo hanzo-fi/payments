@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/ce/plugins/atlar/client"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ce/plugins/atlar/client"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/get-momo/atlar-v1-go-client/client/accounts"
 	atlar_models "github.com/get-momo/atlar-v1-go-client/models"
 	. "github.com/onsi/ginkgo/v2"

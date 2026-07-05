@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/pkg/domain/assets"
-	errorsutils "github.com/formancehq/payments/pkg/domain/errors"
+	"github.com/hanzo-fi/payments/pkg/domain/assets"
+	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"github.com/gibson042/canonicaljson-go"
 )
 

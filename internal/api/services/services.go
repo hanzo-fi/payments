@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/formancehq/payments/internal/connectors/engine"
-	"github.com/formancehq/payments/internal/storage"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/internal/storage"
 )
 
 type Service struct {

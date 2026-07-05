@@ -5,10 +5,10 @@ import (
 
 	"github.com/formancehq/go-libs/v5/pkg/fx/authnfx"
 	"github.com/formancehq/go-libs/v5/pkg/service"
-	"github.com/formancehq/payments/internal/api"
-	v2 "github.com/formancehq/payments/internal/api/v2"
-	v3 "github.com/formancehq/payments/internal/api/v3"
-	"github.com/formancehq/payments/internal/connectors/engine"
+	"github.com/hanzo-fi/payments/internal/api"
+	v2 "github.com/hanzo-fi/payments/internal/api/v2"
+	v3 "github.com/hanzo-fi/payments/internal/api/v3"
+	"github.com/hanzo-fi/payments/internal/connectors/engine"
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 )

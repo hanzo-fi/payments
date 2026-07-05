@@ -7,8 +7,8 @@ import (
 	"github.com/adyen/adyen-go-api-library/v7/src/management"
 	"github.com/adyen/adyen-go-api-library/v7/src/webhook"
 	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/payments/pkg/domain/metrics"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/pkg/domain/metrics"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 func (c *client) searchWebhook(ctx context.Context, connectorID string) error {

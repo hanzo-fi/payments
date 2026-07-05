@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/formancehq/payments/ee/plugins/bitstamp/client"
-	"github.com/formancehq/payments/ee/plugins/bitstamp/mappers"
-	"github.com/formancehq/payments/pkg/domain/models"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
+	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/mappers"
+	"github.com/hanzo-fi/payments/pkg/domain/models"
 )
 
 var marketEventIDRegexp = regexp.MustCompile(`^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$`)

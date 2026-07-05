@@ -4,10 +4,10 @@ package client
 
 import (
 	"context"
-	"github.com/formancehq/payments/pkg/client/internal/hooks"
-	"github.com/formancehq/payments/pkg/client/internal/utils"
-	"github.com/formancehq/payments/pkg/client/models/components"
-	"github.com/formancehq/payments/pkg/client/retry"
+	"github.com/hanzo-fi/payments/pkg/client/internal/hooks"
+	"github.com/hanzo-fi/payments/pkg/client/internal/utils"
+	"github.com/hanzo-fi/payments/pkg/client/models/components"
+	"github.com/hanzo-fi/payments/pkg/client/retry"
 	"net/http"
 	"time"
 )
@@ -109,7 +109,7 @@ func New(serverURL string, opts ...SDKOption) *Formance {
 			OpenAPIDocVersion: "v1",
 			SDKVersion:        "0.0.2",
 			GenVersion:        "2.562.2",
-			UserAgent:         "speakeasy-sdk/go 0.0.2 2.562.2 v1 github.com/formancehq/payments/pkg/client",
+			UserAgent:         "speakeasy-sdk/go 0.0.2 2.562.2 v1 github.com/hanzo-fi/payments/pkg/client",
 			ServerURL:         serverURL,
 			Hooks:             hooks.New(),
 		},

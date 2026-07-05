@@ -3,7 +3,7 @@ package workflow
 import (
 	"time"
 
-	"github.com/formancehq/payments/internal/connectors/engine/activities"
+	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
 	"go.temporal.io/sdk/temporal"
 	"go.temporal.io/sdk/workflow"
 )

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/formancehq/payments/ee/plugins/fireblocks/client"
+	"github.com/hanzo-fi/payments/ee/plugins/fireblocks/client"
 )
 
 // assetInfo is the per-asset cache entry built from /v1/assets at refresh time.

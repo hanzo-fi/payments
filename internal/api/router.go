@@ -11,7 +11,7 @@ import (
 	"github.com/formancehq/go-libs/v5/pkg/service/health"
 	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
 	"github.com/formancehq/go-libs/v5/pkg/transport/api"
-	"github.com/formancehq/payments/internal/api/backend"
+	"github.com/hanzo-fi/payments/internal/api/backend"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

@@ -5,7 +5,7 @@ package components
 import (
 	"errors"
 	"fmt"
-	"github.com/formancehq/payments/pkg/client/internal/utils"
+	"github.com/hanzo-fi/payments/pkg/client/internal/utils"
 )
 
 type TaskResponseDataType string
