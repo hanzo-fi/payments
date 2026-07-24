@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

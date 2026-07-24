@@ -3,9 +3,9 @@ module github.com/hanzo-fi/payments/pkg/domain
 go 1.26
 
 require (
-	github.com/formancehq/go-libs/v5 v5.5.0
 	github.com/gibson042/canonicaljson-go v1.0.3
 	github.com/google/uuid v1.6.0
+	github.com/hanzo-fi/go-libs/v5 v5.6.2
 	github.com/onsi/ginkgo/v2 v2.31.0
 	github.com/onsi/gomega v1.42.0
 	github.com/stretchr/testify v1.11.1

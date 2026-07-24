@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
 	"github.com/hanzo-fi/payments/ce/plugins/dummypay"
 	"github.com/hanzo-fi/payments/internal/connectors/plugins/registry"

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

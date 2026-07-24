@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/ThreeDotsLabs/watermill/message"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
-	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/workflow/temporal"
 	"github.com/hanzo-fi/payments/internal/connectors"
 	"github.com/hanzo-fi/payments/internal/connectors/engine"
 	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"

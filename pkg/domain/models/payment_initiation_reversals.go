@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 )
 
 type PSPPaymentInitiationReversal struct {

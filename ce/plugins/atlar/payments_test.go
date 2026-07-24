@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/ce/plugins/atlar/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/get-momo/atlar-v1-go-client/client/accounts"

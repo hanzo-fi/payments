@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	"github.com/formancehq/go-libs/v5/pkg/observe"
-	"github.com/formancehq/go-libs/v5/pkg/observe/metrics"
-	"github.com/formancehq/go-libs/v5/pkg/observe/profiling"
-	"github.com/formancehq/go-libs/v5/pkg/service"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/metrics"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/profiling"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/workflow/temporal"
 	"github.com/hanzo-fi/payments/cmd"
 )
 

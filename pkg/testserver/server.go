@@ -13,16 +13,16 @@ import (
 	_ "github.com/hanzo-fi/payments/internal/connectors/plugins/registry"
 	formance "github.com/hanzo-fi/payments/pkg/client"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe"
-	"github.com/formancehq/go-libs/v5/pkg/observe/metrics"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/metrics"
 	"github.com/google/uuid"
 	"github.com/uptrace/bun"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/service"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpclient"
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpclient"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
 	"github.com/hanzo-fi/payments/cmd"
 	"github.com/stretchr/testify/require"
 )

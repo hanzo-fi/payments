@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	"github.com/google/go-cmp/cmp"

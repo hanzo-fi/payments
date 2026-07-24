@@ -4,9 +4,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/formancehq/go-libs/v5/pkg/query"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/query"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"

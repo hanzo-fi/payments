@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
-	internalTime "github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
+	internalTime "github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 	internalEvents "github.com/hanzo-fi/payments/internal/events"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/hanzo-fi/payments/pkg/events"

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/ce/plugins/modulr/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"

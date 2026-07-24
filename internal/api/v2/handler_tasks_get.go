@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 	"github.com/hanzo-fi/payments/internal/api/backend"
 	"github.com/hanzo-fi/payments/internal/api/common"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

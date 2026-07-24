@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"golang.org/x/oauth2"

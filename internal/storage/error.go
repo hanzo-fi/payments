@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/postgres"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/postgres"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/pkg/errors"
 	"github.com/uptrace/bun"
 )

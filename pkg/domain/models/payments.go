@@ -9,7 +9,7 @@ import (
 	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"github.com/google/uuid"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/pkg/domain/assets"
 )
 

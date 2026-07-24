@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/formancehq/go-libs/v5/pkg/fx/workflowfx"
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/workflowfx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/workflow/temporal"
 	"github.com/hanzo-fi/payments/internal/connectors/engine"
 	"github.com/spf13/cobra"
 	"go.opentelemetry.io/otel/metric"

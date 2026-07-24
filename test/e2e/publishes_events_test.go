@@ -5,8 +5,8 @@ package test_suite
 import (
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/testing/deferred"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/deferred"
 	"github.com/hanzo-fi/payments/pkg/client/models/components"
 	evts "github.com/hanzo-fi/payments/pkg/events"
 	. "github.com/hanzo-fi/payments/pkg/testserver"

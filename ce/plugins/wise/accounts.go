@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/ce/plugins/wise/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 )

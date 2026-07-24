@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/pkg/domain/plugins"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	. "github.com/onsi/ginkgo/v2"

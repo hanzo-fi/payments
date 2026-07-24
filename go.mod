@@ -46,7 +46,6 @@ replace gopkg.in/go-jose/go-jose.v4 => github.com/go-jose/go-jose/v4 v4.1.4
 require (
 	github.com/ThreeDotsLabs/watermill v1.5.1
 	github.com/bombsimon/logrusr/v3 v3.1.0
-	github.com/formancehq/go-libs/v5 v5.6.1
 	github.com/gibson042/canonicaljson-go v1.0.3
 	github.com/go-chi/chi/v5 v5.2.5
 	github.com/go-chi/cors v1.2.2
@@ -58,6 +57,7 @@ require (
 	github.com/golang/mock v1.7.0-rc.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
+	github.com/hanzo-fi/go-libs/v5 v5.6.2
 	github.com/hanzo-fi/payments/ce/plugins/adyen v0.0.0-00010101000000-000000000000
 	github.com/hanzo-fi/payments/ce/plugins/atlar v0.0.0-00010101000000-000000000000
 	github.com/hanzo-fi/payments/ce/plugins/bankingcircle v0.0.0-00010101000000-000000000000

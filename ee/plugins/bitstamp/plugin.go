@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
 	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/mappers"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

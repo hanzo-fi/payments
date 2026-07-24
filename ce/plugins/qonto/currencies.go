@@ -1,6 +1,6 @@
 package qonto
 
-import "github.com/formancehq/go-libs/v5/pkg/types/currency"
+import "github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 
 // Qonto supports only EUR for internal accounts, but external accounts (beneficiaries) can be in other currencies
 // Note that the exact currencies supported for external accounts are not documented.

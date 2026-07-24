@@ -2,10 +2,10 @@ package api
 
 import (
 	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/service/health"
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/health"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
 	"github.com/hanzo-fi/payments/internal/api/backend"
 	"github.com/hanzo-fi/payments/internal/api/services"
 	"github.com/hanzo-fi/payments/internal/connectors/engine"

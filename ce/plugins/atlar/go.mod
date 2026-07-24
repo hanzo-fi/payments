@@ -3,7 +3,7 @@ module github.com/hanzo-fi/payments/ce/plugins/atlar
 go 1.26
 
 require (
-	github.com/formancehq/go-libs/v5 v5.6.1
+	github.com/hanzo-fi/go-libs/v5 v5.6.1
 	github.com/get-momo/atlar-v1-go-client v1.4.0
 	github.com/go-openapi/runtime v0.32.4
 	github.com/go-openapi/strfmt v0.26.3

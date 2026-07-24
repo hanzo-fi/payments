@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/ee/plugins/bitstamp/client"
 	"go.uber.org/mock/gomock"
 )

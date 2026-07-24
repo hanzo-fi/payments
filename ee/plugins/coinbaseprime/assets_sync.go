@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 )
 
 // ensureAssetsFresh reloads the currencies/networkSymbols maps from

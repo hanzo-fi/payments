@@ -7,7 +7,7 @@ import (
 	"github.com/hanzo-fi/payments/internal/connectors"
 	"github.com/hanzo-fi/payments/internal/connectors/engine"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 	"github.com/hanzo-fi/payments/internal/api/common"
 	"github.com/hanzo-fi/payments/internal/api/services"
 	"github.com/hanzo-fi/payments/internal/storage"

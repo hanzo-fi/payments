@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	internalTime "github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
+	internalTime "github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	internalErrors "github.com/hanzo-fi/payments/pkg/domain/errors"
 	"github.com/uptrace/bun"
