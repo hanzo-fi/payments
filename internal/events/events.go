@@ -6,7 +6,7 @@ import (
 	"math/big"
 
 	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
 	eventsdef "github.com/hanzo-fi/payments/pkg/events"
 )
 

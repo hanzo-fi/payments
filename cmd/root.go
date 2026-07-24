@@ -2,8 +2,8 @@ package cmd
 
 import (
 	_ "github.com/bombsimon/logrusr/v3"
-	"github.com/formancehq/go-libs/v5/pkg/service"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/migrate"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/migrate"
 	"github.com/spf13/cobra"
 )
 

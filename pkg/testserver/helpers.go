@@ -8,7 +8,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/testing/deferred"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/deferred"
 
 	dummy "github.com/hanzo-fi/payments/ce/plugins/dummypay/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

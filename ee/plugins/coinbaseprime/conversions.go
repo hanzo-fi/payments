@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/ee/plugins/coinbaseprime/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 )

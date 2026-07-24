@@ -3,7 +3,7 @@ package registry
 import (
 	"errors"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/pkg/domain/httpwrapper"
 	"github.com/hanzo-fi/payments/internal/connectors/plugins"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

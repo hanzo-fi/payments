@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/metadata"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/metadata"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/get-momo/atlar-v1-go-client/client/accounts"
 	atlar_models "github.com/get-momo/atlar-v1-go-client/models"

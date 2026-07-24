@@ -3,7 +3,7 @@ package v3
 import (
 	"net/http"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
 	"github.com/hanzo-fi/payments/internal/api/backend"
 	"github.com/hanzo-fi/payments/internal/api/validation"
 	"github.com/go-chi/chi/v5"

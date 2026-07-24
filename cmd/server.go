@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/formancehq/go-libs/v5/pkg/fx/authnfx"
-	"github.com/formancehq/go-libs/v5/pkg/service"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/authnfx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service"
 	"github.com/hanzo-fi/payments/internal/api"
 	v2 "github.com/hanzo-fi/payments/internal/api/v2"
 	v3 "github.com/hanzo-fi/payments/internal/api/v3"

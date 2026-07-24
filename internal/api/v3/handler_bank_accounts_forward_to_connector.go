@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 	"github.com/hanzo-fi/payments/internal/api/backend"
 	"github.com/hanzo-fi/payments/internal/api/validation"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

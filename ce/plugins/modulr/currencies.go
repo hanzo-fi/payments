@@ -1,6 +1,6 @@
 package modulr
 
-import "github.com/formancehq/go-libs/v5/pkg/types/currency"
+import "github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 
 var (
 	// c.f. https://modulr.readme.io/docs/international-payments

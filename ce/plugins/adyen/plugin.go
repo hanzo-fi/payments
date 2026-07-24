@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/ce/plugins/adyen/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"

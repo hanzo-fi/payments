@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/ce/plugins/mangopay/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"

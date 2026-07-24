@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/storage/migrations"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/migrations"
 	paymentsMigration "github.com/hanzo-fi/payments/internal/storage/migrations"
 	"github.com/uptrace/bun"
 )

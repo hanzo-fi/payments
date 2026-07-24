@@ -8,7 +8,7 @@ import (
 	"github.com/hanzo-fi/payments/ce/plugins/dummypay/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 const ProviderName = "dummypay"

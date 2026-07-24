@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 	"github.com/hanzo-fi/payments/internal/connectors/engine"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/hanzo-fi/payments/internal/storage"

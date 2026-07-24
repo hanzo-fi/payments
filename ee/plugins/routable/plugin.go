@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/ee/plugins/routable/client"
 	pkgplugins "github.com/hanzo-fi/payments/pkg/domain/plugins"
 	"github.com/hanzo-fi/payments/pkg/domain/models"

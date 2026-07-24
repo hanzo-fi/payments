@@ -3,8 +3,8 @@ package events
 import (
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/hanzo-fi/payments/pkg/events"
 )

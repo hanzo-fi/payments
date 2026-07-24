@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/internal/connectors"
 	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
 	pluginsError "github.com/hanzo-fi/payments/internal/connectors/plugins"

@@ -1,6 +1,6 @@
 package coinbaseprime
 
-import "github.com/formancehq/go-libs/v5/pkg/types/currency"
+import "github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 
 // fiatCurrenciesFallback provides ISO4217 fiat currency precisions as a
 // fallback. Crypto asset precisions are loaded dynamically from the

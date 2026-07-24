@@ -6,7 +6,7 @@ import (
 	"github.com/adyen/adyen-go-api-library/v7/src/hmacvalidator"
 	"github.com/adyen/adyen-go-api-library/v7/src/management"
 	"github.com/adyen/adyen-go-api-library/v7/src/webhook"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/pkg/domain/metrics"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 )

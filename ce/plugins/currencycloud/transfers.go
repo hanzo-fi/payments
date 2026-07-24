@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/currency"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/currency"
 	"github.com/hanzo-fi/payments/ce/plugins/currencycloud/client"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	errorsutils "github.com/hanzo-fi/payments/pkg/domain/errors"

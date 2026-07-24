@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"

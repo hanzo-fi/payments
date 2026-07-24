@@ -3,7 +3,7 @@ package activities_test
 import (
 	"time"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 	"github.com/hanzo-fi/payments/internal/connectors"
 	"github.com/hanzo-fi/payments/internal/connectors/engine/activities"
 	"github.com/hanzo-fi/payments/internal/events"

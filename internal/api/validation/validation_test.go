@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 	"github.com/hanzo-fi/payments/internal/api/validation"
 	"github.com/hanzo-fi/payments/pkg/domain/models"
 	"github.com/google/uuid"

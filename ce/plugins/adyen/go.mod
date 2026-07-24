@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/adyen/adyen-go-api-library/v7 v7.3.1
-	github.com/formancehq/go-libs/v5 v5.6.1
+	github.com/hanzo-fi/go-libs/v5 v5.6.1
 	github.com/go-playground/validator/v10 v10.30.3
 	github.com/hanzo-fi/payments/pkg/domain v0.3.2
 	github.com/onsi/ginkgo/v2 v2.32.0
